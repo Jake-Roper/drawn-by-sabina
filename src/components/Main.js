@@ -48,7 +48,7 @@ class Main extends React.Component {
               <input type="text" name="email" id="email" />
             </div>
             <div className="field">
-              <label htmlFor="message">Message</label>
+              <label htmlFor="message">Commission details</label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
@@ -60,7 +60,6 @@ class Main extends React.Component {
             <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
             <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
             <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-            <li><a href="#" className="icon fa-github"><span className="label">GitHub</span></a></li>
           </ul>
           {close}
         </article>
